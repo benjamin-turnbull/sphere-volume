@@ -5,12 +5,14 @@
 
 int main (void)
 {
-    int radius =10;
+    int radius, volume;
 
-    int volume;
+    printf("Enter radius of the sphere: \n");
+    scanf("%d", &radius);
+
     volume = 4.0 / 3.0 * M_PI * radius * radius * radius;
 
-    printf("%d", volume);
+    printf("Volume: %d", volume);
 
     return 0;
 }
