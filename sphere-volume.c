@@ -3,8 +3,7 @@
 #include <stdio.h>
 #define M_PI 3.14159265358979323846
 
-int main (void)
-{
+int main (void) {
     int radius, volume;
 
     printf("Enter radius of the sphere: \n");
